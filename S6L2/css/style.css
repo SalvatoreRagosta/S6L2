@@ -1,0 +1,58 @@
+ 
+body {
+  padding-top: 100px;
+}
+
+.intro-section {
+  background-color: #F7F9FA;
+  border-radius: 10px; 
+  padding: 20px; 
+  margin: 0 auto; 
+  margin-top: 50px; 
+  text-align: center;
+}
+
+h1{
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+}
+
+span{
+    font-size: 0.7em;
+}
+
+.card {
+    border: 2px solid #0FC9F0; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+
+.btn-primary {
+    background-color: #0FC9F0; 
+    color: #000000;
+}
+
+/* Stile per la sezione "Offerta del giorno" */
+.offer-section {
+    margin-top: 50px; /* Spaziatura superiore */
+  }
+
+  /* Stile per l'immagine dell'offerta del giorno */
+  .offer-image {
+    border-radius: 10px; /* Bordo arrotondato */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    width: 66%; /* 66% dello spazio dedicato */
+    height: auto; /* Altezza automatica */
+  }
+
+  /* Stile per il contenuto dell'offerta del giorno */
+  .offer-content {
+    width: 33%; /* 33% dello spazio dedicato */
+    padding: 20px; /* Spaziatura interna */
+  }
+
+  /* Stile per il badge "Best Offer" */
+  .best-offer-badge {
+    background-color: #343a40; /* Sfondo scuro */
+    color: #ffffff; /* Testo bianco */
+  }
